@@ -10,8 +10,9 @@
     <meta http-equiv="expires" content="0">
     <meta http-equiv="pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="contact.css" rel="stylesheet" type="text/css"/>
-    <title>Contact us</title>
+    <link href="/pages\products\item.css" rel="stylesheet" type="text/css"/>
+    <script src="/pages\products\item.js"></script>
+    <title>Royal Canin - Medium Adult Dry Food</title>
 </head>
 <body>
     <header>
@@ -21,12 +22,33 @@
                 <a href="products.html">Products</a> <!--Maybe remove this page-->
                 <a href="cart.html">Shopping cart</a>
                 <a href="contact.html">Contact Us</a> <!--Could be implemented in the footer-->
-                <!--Login page-->
-                <!--Search bar-->
-                <!--Currency selector-->
+
             </div>
         </nav> 
     </header>
+
+    <div class="item-container">
+        <img src="/images\products\dog\rc_medium_adult_dog_dry_food.png">
+        <div id="specifications">
+            <h2>Royal Canin - Medium Adult</h2>
+            <div id="price">
+                <h4>Price:</h4>
+            </div>
+            <!--Separator-->
+            <div id="sizes">
+                <h4>Size:</h4>
+            </div>
+                <button onclick="changeSize('4kg')" >4kg</button>
+                <button onclick="changeSize('15kg')">15kg</button>
+            <!--Sizes: 4kg, 15kg-->
+            <h4>Quantity:</h4>
+            <!--Quantities-->
+            <!--Remaining units-->
+            <button>Add To Cart</button>
+        </div>
+    </div>
+    
+    
 
 </body>
 </html>

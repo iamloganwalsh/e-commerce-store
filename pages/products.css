@@ -36,7 +36,7 @@ nav a {
 
 header {
     background-color: #1f1e1d;
-    width: 100vw;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 7px;
 }
@@ -51,14 +51,6 @@ header {
     body {
         font-size: 75%;
     }
-}
-
-#landingImage {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: auto;
 }
 
 .image_container {
@@ -79,17 +71,4 @@ header {
 .animal_image img:hover {
     transition: .1s;
     transform: scale(0.95);
-}
-
-.image_container_featured_products {
-    width: 100%;
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.featured_product_image {
-    width: 20%;
-    text-align: center;
-    padding: 1vw;
 }

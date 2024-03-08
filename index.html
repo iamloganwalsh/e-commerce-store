@@ -18,9 +18,11 @@
         <nav>
             <a href="index.html">Home</a>
             <div id="page_nav">
-                <a href="pages\products.html">Products</a>
-                <a href="pages\contact.html">Contact Us</a>
+                <a href="pages\products.html">Products</a> <!--Maybe remove this page-->
                 <a href="pages\cart.html">Shopping cart</a>
+                <a href="pages\contact.html">Contact Us</a> <!--Could be implemented in the footer-->
+                <!--Login page-->
+                <!--Search bar-->
                 <!--Currency selector-->
             </div>
         </nav> 
@@ -28,9 +30,65 @@
 
     <section id="landing">
         <!--Landing page for the shop, introduction + buttons to link to social media (create another html page that says sorry, just a demo). Shop men and women section-->
-
+        <img src="images\skye-close-up.jpg" id="landingImage"></img>
     </section>
 
+    <section id="animal_category">
+        <h1 style="text-align:center;padding-top: 30px;">Shop by Animal</h1>
+        <div class="image_container">
+            <div class="animal_image">
+                <img src="/images\bandit-bush.JPG" style="width:15vw;">
+                <p>Dog</p>
+            </div>
+            <div class="animal_image">
+                <img src="/images\mo-wakeup.jpg" style="width:15vw;">
+                <p>Cat</p>
+            </div>
+            <div class="animal_image">
+                <img src="/images\pixabay-parrot.jpg" style="width:15vw;">
+                <p>Bird</p>
+            </div>
+            <div class="animal_image">
+                <img src="/images\pixabay-fish.jpg" style="width:15vw;">
+                <p>Fish</p>
+            </div>
+            <div class="animal_image">
+                <img src="/images\pixabay-iguana.jpg" style="width:15vw;">
+                <p>Reptile</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured_products">
+        <h1 style="text-align:center;">Featured Products</h1>
+        <div class = "image_container_featured_products">
+
+            <div class="featured_product_image">
+                <a href="pages\products\dog-products\royal-canin-medium-adult-dry.html"><img src="images\products\dog\rc_medium_adult_dog_dry_food.png" style="height:15vw;"></a>
+                <p>Royal Canin - Medium Adult</p>
+                <!--https://www.royalcanin.com/nz/dogs/products/retail-products/medium-adult-3004-->
+            </div>
+
+            <div class="featured_product_image">
+                <img src="images\products\cat\lexi&me_cat_harness_&_lead_set.JPG" style="height:15vw;">
+                <p>Lexi & Me Cat Harness & Lead Set</p>
+                <!--https://www.petstock.co.nz/products/lexi-me-cat-harness-lead-set-variant-100000009160?queryID=a47c9692e591726349633c9c6d2543ef-->
+            </div>
+            
+            <div class="featured_product_image">
+                <img src="images\products\reptile\flukers_crafted_cuisine_turtle_diet.JPG" style="height:15vw;">
+                <p>Flukers Crafted Cuisine Turtle Diet</p>
+                <!--https://www.reptileworld.co.nz/shop/Products/Food/FLUKERS+CRAFTED+CUISINE/x_cat/00353.html-->
+            </div>
+
+            <div class="featured_product_image">
+                <img src="images\products\bird\a&e_large_corner_bird_cage.JPG" style="height:15vw;">
+                <p>A&E Large Corner Bird Cage</p>
+                <!--https://www.amazon.com.au/Large-Corner-Cage-x33-Black/dp/B005N2JDE4-->
+            </div>
+
+        </div>
+    </section>
 
 </body>
 </html>

@@ -8,3 +8,4 @@ function changeSize(size) {
         priceDiv.innerHTML = '<h4>Price: $219.99</h4>';
     }
 }
+

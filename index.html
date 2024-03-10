@@ -11,13 +11,31 @@
     <meta http-equiv="pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="script.js"></script>
     <title>Logan's Pet Shop</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <div id="page_nav">
+            <!--Develop Vertical Nav Bar-->
+            <div class="side-navbar">
+                <div class="side-navbar-icon">
+                    <img src="images\navbar\navbar-icons8.png" alt="Menu Icon" onclick="openNav()">
+                </div>
+            </div>
+
+            <div id="side-nav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Button 1</a>
+                <a href="#">Button 2</a>
+                <a href="#">Button 3</a>
+            </div>
+
+            <div>
+                <a href="index.html">Home</a>
+            </div>
+
+            <div id="page_nav"> <!--Right side links-->
                 <a href="pages\products.html">Products</a> <!--Maybe remove this page-->
                 <a href="pages\cart.html">Shopping cart</a>
                 <a href="pages\contact.html">Contact Us</a> <!--Could be implemented in the footer-->

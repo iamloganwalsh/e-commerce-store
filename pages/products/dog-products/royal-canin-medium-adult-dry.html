@@ -13,6 +13,9 @@
     <link href="/pages\products\item.css" rel="stylesheet" type="text/css"/>
     <script src="/pages\products\item.js"></script>
     <title>Royal Canin - Medium Adult Dry Food</title>
+    <script>
+        const SKU = RCMAD1;
+    </script>
 </head>
 <body>
     <header>
@@ -44,7 +47,7 @@
             <h4>Quantity:</h4>
             <!--Quantities-->
             <!--Remaining units-->
-            <button>Add To Cart</button>
+            <button onclick="updateCart(SKU)">Add To Cart</button> <!--need to build-->
         </div>
     </div>
     

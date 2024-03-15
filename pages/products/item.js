@@ -9,3 +9,6 @@ function changeSize(size) {
     }
 }
 
+function updateCart(SKU) {
+    /* Add item to cart based on SKU */
+}
